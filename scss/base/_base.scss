@@ -1,0 +1,115 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+	line-height: 1.5;
+  background-color: #FBFBFB;
+}
+ol, ul {
+	list-style: none;
+  margin: 0;
+  padding: 0;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+img{
+  width: 100%;
+  vertical-align: middle;
+}
+time{
+  display: block;
+}
+
+// 文字
+.text-header {
+  font-size: 120px;
+
+  @media (max-width: 992px) {
+    font-size: 52px;
+  }
+}
+.text-subheader {
+  font-size: 64px;
+
+  @media (max-width: 992px) {
+    font-size: 48px;
+  }
+}
+.text-fs-3 {
+  font-size: 28px;
+
+  @media (max-width: 992px) {
+    font-size: 24px;
+  }
+}
+
+// line-clamp
+.line-clamp-2 {
+  display: -webkit-box;             // 建立彈性盒子（必要）
+  -webkit-line-clamp: 2;            // 限制最多顯示 2 行
+  -webkit-box-orient: vertical;     // 垂直排列
+  overflow: hidden;                 // 超出部分隱藏
+}
+
+// ICON
+.bi-dash, .bi-arrow-right-circle{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 1;
+}
+.bi-search{
+  font-size: 24px;
+  line-height: 1;
+}
+
+//
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+.container-fluid {
+  margin: 0 auto;
+}
+
+.u-border{
+  border: 1px solid #6C757D;
+}
+.u-border-b{
+  border-bottom: 1px solid #6C757D;
+}
+
+// badge
+.card-badge{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 6px 12px;
+  background-color: #0027D5;
+  color: #fff;
+  border-radius: 40px;
+}
+
+// hashtag
+.card-keyword{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}

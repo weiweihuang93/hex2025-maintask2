@@ -1,0 +1,135 @@
+.nav-menu{
+  display: flex;
+  justify-content: center;
+
+  li a{
+    display: inline-block;
+    padding: 24px 20px;
+    color: #000;
+  }
+  li:hover a, li.active a{
+    color: #0027D5; //自定義
+  }
+}
+
+.section-info{
+  .blog-card{
+    display: flex;
+  }
+  .card-img, .card-caption{
+    width: 50%;
+  }
+  .card-caption.bg{
+    background-image: url('../2025-web-camp/desktop/index/Hero Section2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .card-caption{
+    display: flex;
+    align-items: center;
+  }
+  .card-txt{
+    padding-left: 80px;
+  }
+
+  @media screen and (max-width: 992px) {
+    .blog-card{
+      display: block;
+    }
+    .card-img, .card-caption{
+      width: 100%;
+    }
+    .card-caption{
+      display: block;
+    }
+    .card-txt{
+      padding: 24px;
+    }
+  }
+}
+
+.section-blog{
+  .blog-card{
+    display: flex;
+    gap: 24px;
+  }
+  .card-img, .card-caption{
+    width: 50%;
+  }
+  .card-caption{
+    max-width: 636px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  @media (max-width: 992px) {
+    .blog-card{
+      display: block;
+    }
+    .card-img, .card-caption{
+      width: 100%;
+    }
+    .card-caption{
+      max-width: 100%;
+      padding: 48px 12px;
+    }
+  }
+}
+
+.section-bloglist{
+  .form-search{
+    max-width: 416px;
+    position: relative;
+
+  input{
+    padding: 16px 48px 16px 50px;
+    border: 1px solid #4B4B4B;
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+
+  }
+  .search-icon{
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+  .blog-row{
+    row-gap: 80px;
+  
+    @media (max-width: 992px) {
+      row-gap: 32px;
+    }
+  }
+
+  .blog-card{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .card-caption {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+  }
+  .btn.btn-outline-black{
+    margin-top: auto;
+  }
+}
+
+.section-contact{
+  .contact-info{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+}
+

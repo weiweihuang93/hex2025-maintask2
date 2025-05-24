@@ -1,0 +1,33 @@
+.page{
+  max-width: 328px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFFFFF;
+  padding: 8px 16px;
+  border-radius: 40px;
+}
+.page .page-item a{
+  padding: 8px 12px;
+}
+.page .page-item:hover,
+.page .arrow:hover{
+  border-radius: 6px; //自定義
+  background-color: #0027D5;
+  color: white;
+}
+.page .page-item.active,
+.page .arrow.active{
+  color: #0027D5;
+}
+.page .page-item.active:hover,
+.page .arrow.active:hover{
+  background-color: #0027D5;
+  color: white;
+}
+.bi-chevron-left,
+.bi-chevron-right{
+  font-size: 24px;
+  line-height: 1;
+}
