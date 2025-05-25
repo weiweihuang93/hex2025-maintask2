@@ -113,3 +113,19 @@ time{
   align-items: center;
   gap: 8px;
 }
+
+// tips
+.border-radius-24{
+  border-radius: 24px;
+}
+
+// list-style
+.blog-list{
+  padding-left: 1.25rem;
+}
+.blog-list.disc{
+  list-style: disc;
+}
+.blog-list.decimal{
+  list-style: decimal;
+}

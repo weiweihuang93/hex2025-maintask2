@@ -14348,6 +14348,22 @@ time {
   gap: 8px;
 }
 
+.border-radius-24 {
+  border-radius: 24px;
+}
+
+.blog-list {
+  padding-left: 1.25rem;
+}
+
+.blog-list.disc {
+  list-style: disc;
+}
+
+.blog-list.decimal {
+  list-style: decimal;
+}
+
 .nav-menu {
   display: flex;
   justify-content: center;
@@ -14466,6 +14482,16 @@ time {
   display: flex;
   align-items: center;
   gap: 4px;
+}
+
+.section-article {
+  font-weight: 500;
+}
+.section-article .container {
+  max-width: 636px;
+}
+.section-article .article-card {
+  margin-bottom: 48px;
 }
 
 .page {
