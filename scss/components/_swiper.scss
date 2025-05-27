@@ -1,0 +1,36 @@
+.swiper-button-next-custom .bi,
+.swiper-button-prev-custom .bi{
+  font-size: 44px;
+  opacity: 0.3;
+  transition: opacity 0.3s ease;
+}
+.swiper-button-next-custom .bi:hover,
+.swiper-button-prev-custom .bi:hover {
+  opacity: 1;
+}
+
+.swiper-button-lock {
+  display: block !important;
+}
+
+.swiper-button-prev-custom,
+.swiper-button-next-custom {
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+.swiper-button-prev-custom {
+  left: -68px;
+}
+.swiper-button-next-custom {
+  right: -68px;
+}
+
+@media (max-width: 1440px){
+  .swiper-button-prev-custom,
+  .swiper-button-next-custom {
+    position: static !important;
+  }
+}

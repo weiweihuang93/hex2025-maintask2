@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>最終任務 - 個人品牌網站</title>
   <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 <body>
   <nav>
@@ -16,11 +17,389 @@
     </div>
   </nav>
 
+  <section class="section-homeinfo">
+    <div class="container-fluid">
+      <div class="blog-card">
+        <picture class="card-img">
+          <source
+            srcSet="2025-web-camp/mobile/index/Hero Section.png"
+            media="(max-width: 992px)" />
+          <img src="2025-web-camp/desktop/index/Hero Section.png" alt="Hero-Section" />
+        </picture>
+        <div class="card-caption bg">
+          <div class="card-txt">
+            <h1 class="text-home-header fw-bolder text-primary mb-3">Alyse Wang</h1>
+            <p class="fs-3 fw-bold text-primary">前端工程師 & 職涯諮詢師</p>
+          </div>
+        </div>
+      </div>
+      <div class="main-content bg-white">
+        <p class="text-fs-3 mb-4">嗨，我是 Alyse <span class="d-block d-lg-inline mt-2">一名深耕前端技術的工程師。</span></p>
+        <p class="text-fs-3 mb-4">擅長 React、Vue 等框架，同時熱愛為轉職與新手工程師提供職涯指導。邀請你與我一起，開啟更具潛能的程式與職涯之旅！</p>
+        <div class="main-social">
+          <a href="#" class="icon-arrow"><img src="./2025-web-camp/desktop/index/onlyIcon.png" alt="icon-youtube" /></a>
+          <a href="#" class="icon-arrow"><img src="./2025-web-camp/desktop/index/onlyIcon-1.png" alt="icon-podcast" /></a>
+          <a href="#" class="icon-arrow"><img src="./2025-web-camp/desktop/index/onlyIcon-2.png" alt="icon-facebook" /></a>
+          <a href="#" class="icon-arrow"><img src="./2025-web-camp/desktop/index/icons8-linkedin.png" alt="icon-linkedin" /></a>
+          <a href="#" class="icon-arrow"><img src="./2025-web-camp/desktop/index/onlyIcon-3.png" alt="icon-instagram" /></a>
+        </div>
+    </div>
+  </section>
+
+  <section class="section-service u-border-b py-lg-10 py-9">
+    <div class="container">
+      <h2 class="text-subheader fw-bold mb-7">專業服務與方案</h2>
+      <div class="service-intro d-flex flex-column gap-lg-9 gap-7 mb-7">
+        <section class="service-card">
+          <div class="card-img">
+            <picture>
+              <source
+                srcset="2025-web-camp/mobile/index/photo1.png"
+                media="(max-width: 576px)" />
+              <img src="2025-web-camp/desktop/index/photo.png" alt="履歷健檢" />
+            </picture>
+          </div>
+          <div class="card-caption bg-white">
+            <h3 class="title-dash fs-3 fw-bold mb-2">履歷健檢</h3>
+            <p class="fw-medium text-grey-900">履歷是打開機會之門的第一步。讓我協助你突顯專業技術與核心能力，並透過簡短模擬面試為你加分，讓面試官第一眼就被你吸引。</p>
+          </div>
+        </section>
+        <section class="service-card">
+          <div class="card-img">
+            <picture>
+              <source
+                srcset="2025-web-camp/mobile/index/photo2.png"
+                media="(max-width: 576px)" />
+              <img src="2025-web-camp/desktop/index/photo2.png" alt="線上諮詢" />
+            </picture>
+          </div>
+          <div class="card-caption bg-white">
+            <h3 class="title-dash fs-3 fw-bold mb-2">線上諮詢</h3>
+            <p class="fw-medium text-grey-900">想快速解決前端學習瓶頸，或需要專業職涯指引？透過線上一對一諮詢，我將協助你更有方向地邁進。</p>
+          </div>
+        </section>
+        <section class="service-card">
+          <div class="card-img">
+            <picture>
+              <source
+                srcset="2025-web-camp/mobile/index/photo3.png"
+                media="(max-width: 576px)" />
+              <img src="2025-web-camp/desktop/index/photo3.png" alt="網頁開發" />
+            </picture>
+          </div>
+          <div class="card-caption bg-white">
+            <h3 class="title-dash fs-3 fw-bold mb-2">網頁開發</h3>
+            <p class="fw-medium text-grey-900">想打造高效能、具美感的網站？我提供從需求訪談到架構實作的一站式服務，讓你的品牌與產品在線上脫穎而出。</p>
+          </div>
+        </section>
+        <section class="service-card">
+          <div class="card-img">
+            <picture>
+              <source
+                srcset="2025-web-camp/mobile/index/photo4.png"
+                media="(max-width: 576px)" />
+              <img src="2025-web-camp/desktop/index/photo4.png" alt="企業內訓" />
+            </picture>
+          </div>
+          <div class="card-caption bg-white">
+            <h3 class="title-dash fs-3 fw-bold mb-2">企業內訓</h3>
+            <p class="fw-medium text-grey-900">想讓團隊快速掌握前端最新技術或優化現有專案流程？我可協助打造專業、實用的企業內訓課程，一次解決團隊痛點。</p>
+          </div>
+        </section>
+
+      </div>
+      <div class="d-flex flex-column flex-lg-row justify-content-lg-end align-items-end gap-2">
+        <span class="fs-3 fw-bold">聯繫我，取得更多資訊！</span>
+        <a href="#" class="icon-arrow"><i class="bi bi-arrow-right-circle fs-1"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-bloglist u-border py-lg-10 py-9">
+    <div class="container">
+      <h2 class="text-subheader fw-bold mb-6">部落格精選</h2>
+      <div class="swiper-wrap position-relative">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <article class="blog-card">
+                <picture class="card-img">
+                  <source
+                    srcset="2025-web-camp/mobile/index/photo5.png"
+                    media="(max-width: 992px)" />
+                  <img src="2025-web-camp/desktop/index/photo5.png" alt="自學前端不用怕：從零開始的三大關鍵" />
+                </picture>
+                <div class="card-caption mt-4">
+                  <time class="fw-medium mb-1" datetime="2024/10/11">2024/10/21</time>
+                  <div class="card-keyword mb-2">
+                    <a href="#" class="fs-4 fw-medium text-primary">前端開發 x 職涯成長</a>
+                    <span class="card-badge">最新文章</span>
+                  </div>
+                  <h3 class="fs-3 fw-bold mb-2">自學前端不用怕：從零開始的三大關鍵</h3>
+                  <p class="fw-medium mb-4 line-clamp-2">嗨，我是 Alyse，一名前端工程師兼職涯諮詢師。一直以來，我都很喜歡在部落格分享學習與工作心得，也常有讀者問：「我想轉職/自學前端，該從哪裡開始？」 其實自學的過程既自由又具挑戰性。我整理了三大關鍵，幫助你在短期內建立紮實基礎，並快速累積實戰經驗。希望能替你的前端之路帶來一些啟發與動力！</p>
+                  <a href="article.html" class="btn btn-outline-black">閱讀內文</a>
+                </div>
+              </article>
+            </div>
+            <div class="swiper-slide">
+              <article class="blog-card">
+                <picture class="card-img">
+                  <source
+                    srcset="2025-web-camp/mobile/index/photo6.png"
+                    media="(max-width: 992px)" />
+                  <img src="2025-web-camp/desktop/index/photo6.png" alt="前端面試不再慌：破解常見提問的三大策略" />
+                </picture>
+                <div class="card-caption mt-4">
+                  <time class="fw-medium mb-1" datetime="2024/10/11">2024/07/08</time>
+                  <div class="card-keyword mb-2">
+                    <a href="#" class="fs-4 fw-medium text-primary">#面試準備</a>
+                    <a href="#" class="fs-4 fw-medium text-primary">#工程師求職</a>
+                    <span class="card-badge">人氣文章</span>
+                  </div>
+                  <h3 class="fs-3 fw-bold mb-2">前端面試不再慌：破解常見提問的三大策略</h3>
+                  <p class="fw-medium mb-4 line-clamp-2">面試前端工程師時，你或許擔心被問到各種刁鑽的技術題目，或是擔憂無法在短時間內展現實力。其實，許多面試官關注的重點並不僅是程式碼本身，更包含問題解決的流程與溝通能力。這篇文章將分享我在面試過程中常見的三大難題，以及如何以更具條理的方式回應，讓你在面試場合中脫穎而出。</p>
+                  <a href="#" class="btn btn-outline-black">閱讀內文</a>
+                </div>
+              </article>
+            </div>
+            <div class="swiper-slide">
+              <article class="blog-card">
+                <picture class="card-img">
+                  <source
+                    srcset="2025-web-camp/mobile/index/photo7.png"
+                    media="(max-width: 992px)" />
+                  <img src="2025-web-camp/desktop/index/photo7.png" alt="CSS 魔法大揭密：排版與設計的三大關鍵技巧" />
+                </picture>
+                <div class="card-caption mt-4">
+                  <time class="fw-medium mb-1" datetime="2024/10/11">2024/09/03</time>
+                  <div class="card-keyword mb-2">
+                    <a href="#" class="fs-4 fw-medium text-primary">#CSS設計</a>
+                    <a href="#" class="fs-4 fw-medium text-primary">#視覺體驗</a>
+                  </div>
+                  <h3 class="fs-3 fw-bold mb-2">CSS 魔法大揭密：排版與設計的三大關鍵技巧</h3>
+                  <p class="fw-medium mb-4 line-clamp-2">在瀏覽器畫面上實現各種精美介面，一直是前端開發充滿成就感的部分。但當面臨複雜的佈局需求或是響應式設計時，往往讓人抓破頭皮。這篇文章想跟大家分享我在實務專案中累積的三大技巧，幫助你更有效率地駕馭 CSS，打造兼具美感與功能性的網頁。</p>
+                  <a href="#" class="btn btn-outline-black">閱讀內文</a>
+                </div>
+              </article>
+            </div>
+          </div>
+          
+        </div>
+        <div class="d-flex gap-6 mt-7">
+          <div class="swiper-button-prev-custom ms-auto">
+            <i class="bi bi-arrow-left-circle-fill text-primary"></i>
+          </div>
+          <div class="swiper-button-next-custom">
+            <i class="bi bi-arrow-right-circle-fill text-primary"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-cases u-border py-lg-10 py-9">
+    <div class="container">
+      <h2 class="text-subheader fw-bold mb-6">職涯諮詢<span class="d-lg-inline d-block">成功案例</span></h2>
+      <div class="cases-card mb-8">
+        <div class="card-img bg-grey-200">
+          <picture>
+            <source
+              srcset="./2025-web-camp/mobile/index/photo8.png"
+              media="(max-width: 992px)" />
+            <img src="./2025-web-camp/desktop/index/photo8.png" alt="職涯諮詢成功案例" />
+          </picture>
+        </div>
+        <div class="card-info">
+          <div class="card-caption bg-white py-lg-10 py-8 px-8 mb-lg-0 mb-3">
+            <p class="title-dash fw-bold">在職涯發展的關鍵轉折點上，適時的協助與正確的方向至關重要。藉由職涯諮詢，我可以幫助你加速釐清目標、建立更全面的技術與軟實力，並有效<span class="text-primary">突破原有的舒適圈</span>。</p>
+          </div>
+          <div class="card-caption bg-grey-300 py-lg-10 py-8 px-8">
+            <p class="title-dash fw-bold mb-6">期待在下一個新機會中，我能與你一起攜手邁向更高峰！</p>
+            <a href="#" class="btn btn-outline-primary fw-bold">立即預約諮詢</a>
+          </div>
+        </div>
+      </div>
+      <div class="cases-list bg-grey-300 p-6">
+        <div class="row row-cols-lg-4 row-cols-md-2 row-cols-1 g-6">
+          <div class="col">
+            <div class="cases-list-card">
+              <img class="mb-4" src="./2025-web-camp/desktop/index/people.png" alt="people" />
+              <h4 class="fs-4 fw-bold mb-2">無經驗到前端工程師 Offer</h4>
+              <ul class="card-item mb-4">
+                <li class="fs-6 fw-medium text-grey-900">
+                  <i class="bi bi-check-square-fill text-primary me-2"></i>轉職迷茫到明確學習規劃</li>
+                <li class="fs-6 fw-medium text-grey-900">
+                  <i class="bi bi-check-square-fill text-primary me-2"></i>深度強化面試表現</li>
+              </ul>
+              <a href="#" class="btn btn-outline-black fw-medium mt-auto">前往聆聽 podcast</a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="cases-list-card">
+              <img class="mb-4" src="./2025-web-camp/desktop/index/people2.png" alt="people2" />
+              <h4 class="fs-4 fw-bold mb-2">轉職迷茫到明確學習規劃</h4>
+              <ul class="card-item mb-4">
+                <li class="fs-6 fw-medium text-grey-900">
+                  <i class="bi bi-check-square-fill text-primary me-2"></i>制訂階段性目標與時間安排</li>
+                <li class="fs-6 fw-medium text-grey-900">
+                  <i class="bi bi-check-square-fill text-primary me-2"></i>鼓勵參與前端社群或活動</li>
+              </ul>
+              <a href="#" class="btn btn-outline-black fw-medium mt-auto">前往聆聽 podcast</a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="cases-list-card">
+              <img class="mb-4" src="./2025-web-camp/desktop/index/people3.png" alt="people3" />
+              <h4 class="fs-4 fw-bold mb-2">面試緊張到從容應對</h4>
+              <ul class="card-item mb-4">
+                <li class="fs-6 fw-medium text-grey-900">
+                  <i class="bi bi-check-square-fill text-primary me-2"></i>透過面試模擬找出常犯的邏輯漏洞</li>
+                <li class="fs-6 fw-medium text-grey-900">
+                  <i class="bi bi-check-square-fill text-primary me-2"></i>討論遇到不熟悉議題時的回應方式</li>
+              </ul>
+              <a href="#" class="btn btn-outline-black fw-medium mt-auto">前往聆聽 podcast</a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="cases-list-card">
+              <img class="mb-4" src="./2025-web-camp/desktop/index/people4.png" alt="people4" />
+              <h4 class="fs-4 fw-bold mb-2">面試緊張到從容應對</h4>
+              <ul class="card-item mb-4">
+                <li class="fs-6 fw-medium text-grey-900">
+                  <i class="bi bi-check-square-fill text-primary me-2"></i>擬定進階框架或技術研究目標</li>
+                <li class="fs-6 fw-medium text-grey-900">
+                  <i class="bi bi-check-square-fill text-primary me-2"></i>培養跨團隊溝通與簡報能力</li>
+              </ul>
+              <a href="#" class="btn btn-outline-black fw-medium mt-auto">前往聆聽 podcast</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-subscribe u-border">
+    <div class="container-fluid">
+      <div class="blog-card">
+        <div class="card-img">
+          <picture>
+            <source
+              srcset="./2025-web-camp/mobile/index/photo9.png"
+              media="(max-width: 992px)" />
+            <img src="./2025-web-camp/desktop/index/photo9.png" alt="訂閱電子報" />
+          </picture>
+        </div>
+        <div class="card-caption bg">
+          <div class="card-txt bg-white">
+            <h2 class="text-subheader fw-bold mb-4">訂閱電子報</h2>
+              <p class="fs-5 fw-medium mb-6">立即訂閱，搶先掌握<span class="text-primary">前端 x 職涯</span>的獨家資訊！</p>
+              <form class="mb-6">
+                <div class="mb-2">
+                  <input
+                    class="form-control"
+                    type="text"
+                    id="name"
+                    placeholder="請輸入您的大名"
+                  />
+                </div>
+                <div>
+                  <input
+                    class="form-control"
+                    type="email"
+                    id="email"
+                    placeholder="請輸入您的電子信箱"
+                  />
+                </div>
+              </form>
+              <button class="btn btn-outline-primary fw-bold">啟動訂閱</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-contact u-border py-lg-10 py-9">
+    <div class="container">
+      <h2 class="text-subheader fw-bold mb-2">與我聯繫</h2>
+      <div class="contact-card">
+        <ul class="card-list">
+          <li>
+            <div class="d-flex flex-lg-row flex-column gap-lg-4 gap-2">
+              <a href="mailto:alysewang@hexschool.com" class="fs-2 text-decoration-underline">alysewang@hexschool.com</a>
+              <span class="fs-3">合作洽談</span>
+            </div>
+            <a href="#" class="icon-arrow"><i class="bi bi-arrow-right fs-4"></i></a>
+          </li>
+          <li>
+            <div class="d-flex align-items-center gap-2">
+              <img class="icon-img" src="./2025-web-camp/desktop/index/onlyIcon.png" alt="icon-youtube" />
+              <span class="text-fs-3">Youtube</span>
+              <span class="text-fs-3">職涯諮詢室</span>
+            </div>
+            <a href="#" class="icon-arrow"><i class="bi bi-arrow-right fs-4"></i></a>
+          </li>
+          <li>
+            <div class="d-flex align-items-center gap-2">
+              <img class="icon-img" src="./2025-web-camp/desktop/index/onlyIcon-1.png" alt="icon-podcast" />
+              <span class="text-fs-3">podcast</span>
+              <span class="text-fs-3">職涯諮詢室</span>
+            </div>
+            <a href="#" class="icon-arrow"><i class="bi bi-arrow-right fs-4"></i></a>
+          </li>
+          <li>
+            <div class="d-flex align-items-center gap-2">
+              <img class="icon-img" src="./2025-web-camp/desktop/index/onlyIcon-2.png" alt="icon-facebook" />
+              <span class="text-fs-3">Facebook</span>
+              <span class="text-fs-3">前端社群</span>
+            </div>
+            <a href="#" class="icon-arrow"><i class="bi bi-arrow-right fs-4"></i></a>
+          </li>
+          <li>
+            <div class="d-flex align-items-center gap-2">
+              <img class="icon-img" src="./2025-web-camp/desktop/index/icons8-linkedin.png" alt="icon-linkedin" />
+              <span class="text-fs-3">linkedin</span>
+              <span class="text-fs-3">職涯交流</span>
+            </div>
+            <a href="#" class="icon-arrow"><i class="bi bi-arrow-right fs-4"></i></a>
+          </li>
+          <li>
+            <div class="d-flex align-items-center gap-2">
+              <img class="icon-img" src="./2025-web-camp/desktop/index/onlyIcon-3.png" alt="icon-instagram" />
+              <span class="text-fs-3">Instagram</span>
+              <span class="text-fs-3">日常分享</span>
+            </div>
+            <a href="#" class="icon-arrow"><i class="bi bi-arrow-right fs-4"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
   <footer class="footer bg-white py-6">
     <div class="container text-center">
       <small class="fs-6 fw-medium">© 2025 Alyse Wang. All rights reserved.</small>
     </div>
   </footer>
-  
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 24,
+      loop: true,
+      navigation: {
+        nextEl: ".swiper-button-next-custom",
+        prevEl: ".swiper-button-prev-custom",
+      },
+      breakpoints: {
+        1441: {
+          slidesPerView: 3,
+        },
+      },
+    });
+  </script>
 </body>
 </html>

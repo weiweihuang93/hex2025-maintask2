@@ -37,6 +37,14 @@ time{
 }
 
 // 文字
+.text-home-header {
+  font-size: clamp(2.5rem, 6vw, 7.5rem);
+  white-space: nowrap;
+
+  @media (max-width: 992px) {
+    font-size: 52px;
+  }
+}
 .text-header {
   font-size: 120px;
 
@@ -67,8 +75,21 @@ time{
   overflow: hidden;                 // 超出部分隱藏
 }
 
+.title-dash{
+  position: relative;
+}
+.title-dash::before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  width: 30px;
+  height: 2.5px;
+  background-color: #0027D5;
+}
+
 // ICON
-.bi-dash, .bi-arrow-right-circle{
+.bi-arrow-right-circle{
   display: inline-block;
   width: 40px;
   height: 40px;
@@ -77,6 +98,14 @@ time{
 .bi-search{
   font-size: 24px;
   line-height: 1;
+}
+
+// icon
+.icon-arrow{
+  transition: transform 0.3s ease;
+}
+.icon-arrow:hover{
+  transform: translateX(4px); /* 向右滑動 4px */
 }
 
 //
