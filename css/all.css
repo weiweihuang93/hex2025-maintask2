@@ -14824,6 +14824,13 @@ time {
 @media (max-width: 1440px) {
   .swiper-button-prev-custom,
   .swiper-button-next-custom {
-    position: static !important;
+    display: none !important;
+  }
+}
+@media (max-width: 1200px) {
+  .swiper-button-prev-custom,
+  .swiper-button-next-custom {
+    display: block !important;
+    position: static;
   }
 }/*# sourceMappingURL=all.css.map */
